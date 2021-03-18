@@ -30,9 +30,9 @@
     </header>
     <!-- /ヘッダー -->
 
-    <!-- 記事 -->
-    <div class="grid grid-cols-11">
-      <div class="col-start-2 col-end-8 pt-8">
+    <!-- メインコンテンツ -->
+    <div class="grid grid-cols-12">
+      <div class="col-start-2 col-end-9 pt-8">
         <div class="text-xs text-gray-300 mb-16">Home > ライフスタイル > 瞑想・ヨガ</div>
         <div class="flex justify-between">
           <div class="text-xs text-gray-300 pl-4">2021.03.18</div>
@@ -41,6 +41,10 @@
             <div class="text-xs">ハピラフMAGAZINE編集部</div>
           </div>
         </div>
+      </div>
+
+      <!-- 記事 -->
+      <div class="col-start-2 col-end-9">
         <div class="text-4xl border-b-4 border-black pl-4 pb-2 mb-4">私の名品 #03 作家 羽田圭介「こだわりの道具に身体を縛られる」</div>
         <div class="flex pl-4 mb-8">
           <div class="h-8 w-8 bg-twitter bg-cover bg-center mr-4"></div>
@@ -78,14 +82,19 @@
             <div class="h-8 w-8 bg-good bg-cover bg-center mr-4"></div>
           </div>
         </div>
+
+        <!-- ライター -->
         <div class="text-4xl border-b-4 border-black mb-8">WRITER</div>
-        <div class="flex">
+        <div class="flex mb-20">
           <div class="w-5/6">
             <div class="font-bold mb-2">ハピラフMAGAZINE編集部</div>
             <div>誰かの「好き」が、ほかの誰かの「好き」を応援するようなメディアになりたいです。</div>
           </div>
           <div class="h-24 w-24 bg-baby bg-cover bg-center"></div>
         </div>
+        <!-- /ライター -->
+
+        <!-- 関連記事 -->
         <div class="text-4xl border-b-4 border-black mb-8">RELATED ARTICLES</div>
         <div class="divide-y">
           <div class="flex py-4">
@@ -110,9 +119,135 @@
             </div>
           </div>
         </div>
+        <!-- 関連記事 -->
       </div>
+      <!-- /記事 -->
+
+      <!-- サイドバー -->
+      <div class="col-start-10 col-end-13 pr-16">
+        <!-- 検索フォーム -->
+        <div class="rounded-full border border-black mb-14">
+          <form method="get" class="h-12 flex justify-center">
+            <label class="hidden" for="s"></label>
+            <input type="text" placeholder="&#xf002; SEARCH" name="s" class="text-center rounded-full" id="s" />
+            <input type="submit" class="hidden" id="searchsubmit" />
+          </form>
+        </div>
+        <!-- /検索フォーム -->
+        <!-- ランキング -->
+        <div class="mb-24">
+          <div class="h-12 w-full mb-8 text-3xl text-white font-bold py-2 pl-4 bg-black">
+            RANKING
+          </div>
+          <a href="/" class="h-24 w-full flex mb-6">
+            <div class="h-full w-1/3 bg-flower bg-cover bg-center">
+              <div class="w-1/3 bg-black flex justify-center">
+                <div class="text-xs text-white pt-2 pb-2">1</div>
+              </div>
+            </div>
+            <div class="h-full w-2/3 text-sm break-words pl-8">
+              <div class="flex mb-1">
+                <div class="text-xs border border-black rounded-full p-1">コスメ</div>
+              </div>
+              <div>テキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+          <a href="/" class="h-24 w-full flex mb-6">
+            <div class="h-full w-1/3 bg-flower bg-cover bg-center">
+              <div class="w-1/3 bg-black flex justify-center">
+                <div class="text-xs text-white pt-2 pb-2">2</div>
+              </div>
+            </div>
+            <div class="h-full w-2/3 text-sm break-words pl-8">
+              <div class="flex mb-1">
+                <div class="text-xs border border-black rounded-full p-1">コスメ</div>
+              </div>
+              <div>テキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+          <a href="/" class="h-24 w-full flex mb-6">
+            <div class="h-full w-1/3 bg-flower bg-cover bg-center">
+              <div class="w-1/3 bg-black flex justify-center">
+                <div class="text-xs text-white pt-2 pb-2">3</div>
+              </div>
+            </div>
+            <div class="h-full w-2/3 text-sm break-words pl-8">
+              <div class="flex mb-1">
+                <div class="text-xs border border-black rounded-full p-1">コスメ</div>
+              </div>
+              <div>テキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+          <a href="/" class="h-24 w-full flex mb-6">
+            <div class="h-full w-1/3 bg-flower bg-cover bg-center">
+              <div class="w-1/3 bg-black flex justify-center">
+                <div class="text-xs text-white pt-2 pb-2">4</div>
+              </div>
+            </div>
+            <div class="h-full w-2/3 text-sm break-words pl-8">
+              <div class="flex mb-1">
+                <div class="text-xs border border-black rounded-full p-1">コスメ</div>
+              </div>
+              <div>テキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+          <a href="/" class="h-24 w-full flex mb-6">
+            <div class="h-full w-1/3 bg-flower bg-cover bg-center">
+              <div class="w-1/3 bg-black flex justify-center">
+                <div class="text-xs text-white pt-2 pb-2">5</div>
+              </div>
+            </div>
+            <div class="h-full w-2/3 text-sm break-words pl-8">
+              <div class="flex mb-1">
+                <div class="text-xs border border-black rounded-full p-1">コスメ</div>
+              </div>
+              <div>テキストテキストテキストテキストテキストテキスト</div>
+            </div>
+          </a>
+        </div>
+        <!-- /ランキング -->
+        <!-- カテゴリ -->
+        <div class="lg:h-12 lg:text-3xl lg:text-white lg:bg-black lg:mx-0 lg:pl-4 text-lg border-b-4 border-black font-bold mx-4 mb-8 py-2 pl-2">
+          CATEGORY
+        </div>
+        <div class="flex flex-col ml-8 mb-4 lg:mb-8">
+          <a href="/category/コスメ" class="text-sm text-gray-500 font-semibold mb-2">コスメ</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">イエベ</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">ブルベ</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">ポーチの中身</a>
+        </div>
+        <div class="flex flex-col ml-8 mb-4 lg:mb-8">
+          <a href="/category/占い・恋愛" class="text-sm text-gray-500 font-semibold mb-2">占い・恋愛</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">占い</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">恋愛</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">心理テスト</a>
+        </div>
+        <div class="flex flex-col ml-8 mb-4 lg:mb-8">
+          <a href="/category/ファッション" class="text-sm text-gray-500 font-semibold mb-2">ファッション</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">韓国アパレル</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">20代向け</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">30~40代向け</a>
+        </div>
+        <div class="flex flex-col ml-8 mb-4 lg:mb-8">
+          <a href="/category/ライフスタイル" class="text-sm text-gray-500 font-semibold mb-2">ライフスタイル</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">瞑想、ヨガ</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">格安SIM</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">ダイエット</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">保険</a>
+        </div>
+        <div class="flex flex-col ml-8 mb-4 lg:mb-8">
+          <a href="/category/ライター一覧" class="text-sm text-gray-500 font-semibold mb-2">アカウント一覧</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">節約チャンネル</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">スタディオンデマンド</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">ライフスタイルチャンネル</a>
+          <a href="/" class="text-sm text-gray-400 mb-2 pl-4">ダイエットチャンネル</a>
+        </div>
+        <!-- /カテゴリ -->
+      </div>
+      <!-- /サイドバー -->
     </div>
-    <!-- /記事 -->
+    <!-- /メインコンテンツ -->
+
 
     <!-- フッター -->
     <footer>
