@@ -12,6 +12,11 @@ module.exports = {
         'coffee': "url('./coffee.jpg')",
         'baby': "url('./baby.jpg')",
         'beach': "url('./beach.jpg')",
+        'twitter': "url('./twitter-icon.jpg')",
+        'facebook': "url('./facebook-icon.png')",
+        'line': "url('./line-icon.png')",
+        'good': "url('./good-icon.png')",
+        'share': "url('./share-icon.png')",
       })
     },
     height: {
